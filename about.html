@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bio — Achintya B S</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .about h2 {
+      background:linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 50%, var(--success) 100%);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-clip:text;
+      font-size: 2rem;
+    }
+    .about-intro {
+      background:rgba(30, 58, 95, 0.6);
+      backdrop-filter:blur(5px);
+      padding:2rem;
+      border-radius:10px;
+      border:1px solid rgba(77, 143, 255, 0.2);
+      margin-bottom:2rem;
+    }
+    .interests-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .interest-card {
+      background:rgba(30, 58, 95, 0.5);
+      border-left:4px solid var(--accent);
+      padding:1.5rem;
+      border-radius:8px;
+      transition:all 0.3s ease;
+    }
+    .interest-card:hover {
+      background:rgba(30, 58, 95, 0.8);
+      transform:translateY(-5px);
+      box-shadow:0 8px 25px rgba(11, 95, 255, 0.15);
+    }
+    .interest-card strong {
+      color: var(--accent-light);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Achintya B S</h1>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="about.html" class="active">Bio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container about">
+    <section class="about-intro">
+      <h2>Bio</h2>
+      <p>I am a Computer Science engineering student based in Bangalore, India. I am passionate about building scalable backend systems and cloud infrastructure. My interests span from distributed systems architecture to DevOps automation and observability.</p>
+      <p>Currently focusing on advanced Kubernetes patterns, microservices resilience, and cloud-native application design. Active contributor to open-source DevOps projects.</p>
+    </section>
+
+    <section>
+      <h3>Interests</h3>
+      <div class="interests-grid">
+        <div class="interest-card">
+          <strong>Distributed Systems</strong>
+          <p>Designing and implementing highly scalable, fault-tolerant systems with focus on consistency and partition tolerance.</p>
+        </div>
+        <div class="interest-card">
+          <strong>Cloud & Kubernetes</strong>
+          <p>Building production-ready containerized applications, optimizing resource utilization, and implementing GitOps workflows.</p>
+        </div>
+        <div class="interest-card">
+          <strong>Observability & Monitoring</strong>
+          <p>Implementing comprehensive monitoring, logging, and tracing solutions for complex distributed architectures.</p>
+        </div>
+        <div class="interest-card">
+          <strong>CI/CD & DevOps</strong>
+          <p>Automating deployment pipelines, infrastructure provisioning, and enabling rapid, reliable software delivery.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Achintya B S</small>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Achintya B S</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* simplified print-friendly resume overrides */
+    @media print {
+      body { color: #000; background: #fff; }
+      .site-header, .site-footer, .nav-toggle, .main-nav { display:none }
+      .container { width: 100%; }
+    }
+    .resume-header { display:flex; justify-content:space-between; align-items:flex-start; }
+    .resume section { margin: 1.5rem 0; }
+    .resume-skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .skill-tag { 
+      display: inline-block;
+      background: rgba(77, 143, 255, 0.2);
+      border: 1px solid var(--accent);
+      color: var(--accent-light);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .skill-tag:hover {
+      background: rgba(77, 143, 255, 0.4);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Achintya B S</h1>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="about.html">Bio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container resume">
+    <section class="resume-header">
+      <div>
+        <h2>Achintya B S</h2>
+        <p>achintya.bs2006@email.com · <a href="https://github.com/AchinthaBS-dev">github.com/AchinthaBS-dev</a></p>
+      </div>
+      <div>
+        <p>Bangalore, India</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Summary</h3>
+      <p>Software engineering student with expertise in cloud-native architectures, distributed systems, and backend optimization. Proficient in modern DevOps practices, microservices design, and infrastructure automation. Proven track record of building production-grade systems with focus on scalability and reliability.</p>
+    </section>
+
+    <section>
+      <h3>Technical Skills</h3>
+      <div class="resume-skill-tags">
+        <span class="skill-tag">Go</span>
+        <span class="skill-tag">Rust</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">GraphQL</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Kubernetes</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">GCP</span>
+        <span class="skill-tag">Terraform</span>
+        <span class="skill-tag">Prometheus</span>
+        <span class="skill-tag">Grafana</span>
+        <span class="skill-tag">Kafka</span>
+        <span class="skill-tag">Redis</span>
+        <span class="skill-tag">Elasticsearch</span>
+        <span class="skill-tag">Jenkins</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <div class="resume-project">
+        <strong>Distributed Event Processing System</strong> — Kafka, Go, Kubernetes (2025)
+        <p>Engineered high-throughput event streaming platform handling 100K+ events/second with automated failover and 99.9% uptime SLA using Prometheus monitoring.</p>
+      </div>
+
+      <div class="resume-project">
+        <strong>GraphQL API Gateway</strong> — TypeScript, Apollo, Microservices (2025)
+        <p>Designed unified API gateway aggregating 5+ microservices with Redis caching reducing database load by 60% and real-time subscriptions support.</p>
+      </div>
+
+      <div class="resume-project">
+        <strong>Cloud Cost Optimization Tool</strong> — AWS, Terraform, Python (2024)
+        <p>Built analytics dashboard for multi-cloud resource utilization with automated cost alerts and optimization recommendations, achieving 35% annual savings.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <p>Adichunchanagiri Institute of Technology — B.E. in Computer Science Engineering (2023–2027), Chikmagalur, India</p>
+    </section>
+
+    <section>
+      <h3>Certifications & Activities</h3>
+      <p>AWS Certified Solutions Architect Associate — Amazon Web Services, 2025</p>
+      <p>Kubernetes Application Developer (CKAD) — Linux Foundation, 2024</p>
+      <p>Speaker at DevOps meetup on Kubernetes optimization and cost reduction, Bangalore 2024</p>
+    </section>
+
+    <p><small>Last updated: 2025</small></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Achintya B S</small>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
