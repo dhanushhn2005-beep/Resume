@@ -6,7 +6,6 @@
   <title>Resume — DHANUSH H N</title>
   <link rel="stylesheet" href="assets/css/styles.css">
   <style>
-    /* simplified print-friendly resume overrides */
     @media print {
       body { color: #000; background: #fff; }
       .site-header, .site-footer, .nav-toggle, .main-nav { display:none }
@@ -25,16 +24,12 @@
       font-size: 0.85rem;
       font-weight: 500;
     }
-    .skill-tag:hover {
-      background: rgba(77, 143, 255, 0.4);
-      transform: translateY(-2px);
-    }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <h1 class="site-title">Achintya B S</h1>
+      <h1 class="site-title">Dhanush H N</h1>
       <nav class="main-nav" aria-label="Main Navigation">
         <a href="index.html">Home</a>
         <a href="resume.html" class="active">Resume</a>
@@ -44,10 +39,19 @@
   </header>
 
   <main class="container resume">
+
+    <!-- ✨ PHOTO SECTION ADDED HERE -->
+    <div style="text-align:right;">
+      <img src="assets/images/dhanush_photo.jpg" alt="Dhanush H N" 
+           style="width:120px; height:140px; object-fit:cover; border-radius:8px;">
+    </div>
+    <!-- END PHOTO -->
+
     <section class="resume-header">
       <div>
-        <h2>Achintya B S</h2>
-        <p>dhanushhn2005@email.com · <a href="https://github.com/dhanushhn2005-beep">github.com/dhanushhn2005-beep</a></p>
+        <h2>Dhanush H N</h2>
+        <p>dhanushhn2005@email.com · 
+        <a href="https://github.com/dhanushhn2005-beep">github.com/dhanushhn2005-beep</a></p>
       </div>
       <div>
         <p>Bangalore, India</p>
@@ -56,7 +60,7 @@
 
     <section>
       <h3>Summary</h3>
-      <p>Software engineering student with expertise in cloud-native architectures, distributed systems, and backend optimization. Proficient in modern DevOps practices, microservices design, and infrastructure automation. Proven track record of building production-grade systems with focus on scalability and reliability.</p>
+      <p>Software engineering student with expertise in cloud-native architectures, distributed systems, and backend optimization.</p>
     </section>
 
     <section>
@@ -66,51 +70,20 @@
         <span class="skill-tag">Rust</span>
         <span class="skill-tag">TypeScript</span>
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">Java</span>
-        <span class="skill-tag">PostgreSQL</span>
-        <span class="skill-tag">GraphQL</span>
-        <span class="skill-tag">REST APIs</span>
-        <span class="skill-tag">Kubernetes</span>
-        <span class="skill-tag">AWS</span>
-        <span class="skill-tag">GCP</span>
-        <span class="skill-tag">Terraform</span>
-        <span class="skill-tag">Prometheus</span>
-        <span class="skill-tag">Grafana</span>
-        <span class="skill-tag">Kafka</span>
-        <span class="skill-tag">Redis</span>
-        <span class="skill-tag">Elasticsearch</span>
-        <span class="skill-tag">Jenkins</span>
       </div>
     </section>
 
     <section>
       <h3>Projects</h3>
       <div class="resume-project">
-        <strong>Distributed Event Processing System</strong> — Kafka, Go, Kubernetes (2025)
-        <p>Engineered high-throughput event streaming platform handling 100K+ events/second with automated failover and 99.9% uptime SLA using Prometheus monitoring.</p>
-      </div>
-
-      <div class="resume-project">
-        <strong>GraphQL API Gateway</strong> — TypeScript, Apollo, Microservices (2025)
-        <p>Designed unified API gateway aggregating 5+ microservices with Redis caching reducing database load by 60% and real-time subscriptions support.</p>
-      </div>
-
-      <div class="resume-project">
-        <strong>Cloud Cost Optimization Tool</strong> — AWS, Terraform, Python (2024)
-        <p>Built analytics dashboard for multi-cloud resource utilization with automated cost alerts and optimization recommendations, achieving 35% annual savings.</p>
+        <strong>Distributed Event Processing System</strong>
+        <p>High-throughput event streaming system using Go + Kafka.</p>
       </div>
     </section>
 
     <section>
       <h3>Education</h3>
-      <p>Adichunchanagiri Institute of Technology — B.E. in Computer Science Engineering (2023–2027), Chikmagalur, India</p>
-    </section>
-
-    <section>
-      <h3>Certifications & Activities</h3>
-      <p>AWS Certified Solutions Architect Associate — Amazon Web Services, 2025</p>
-      <p>Kubernetes Application Developer (CKAD) — Linux Foundation, 2024</p>
-      <p>Speaker at DevOps meetup on Kubernetes optimization and cost reduction, Bangalore 2024</p>
+      <p>Adichunchanagiri Institute of Technology — B.E. in CSE (2023–2027)</p>
     </section>
 
     <p><small>Last updated: 2025</small></p>
@@ -122,8 +95,5 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/script.js"></script>
 </body>
-
 </html>
