@@ -1,4 +1,4 @@
-# Nandan MR — Portfolio
+# DHANUSH HN — Portfolio
 
 This repository contains a small multi-page portfolio site for Nandan MR. It includes:
 
@@ -35,3 +35,4 @@ Notes
 -----
 - This site uses jQuery from CDN. If you need an entirely offline setup, replace CDN script with a local copy.
 - Want me to push and configure GitHub Pages for you? I can create a git remote and push if you provide the repository URL or give me permission to run git commands locally.
+
